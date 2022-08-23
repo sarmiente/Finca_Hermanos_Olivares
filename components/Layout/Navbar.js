@@ -68,7 +68,7 @@ export default function Navbar() {
               width: 0,
               transition: { delay: 0.3, duration: 0.3 },
             }}
-            className="fixed right-0 bg-transparent h-screen lg:hidden bg-gradient-to-r from-red-500 to-red-700"
+            className="fixed right-0 bg-transparent h-screen lg:hidden bg-gradient-to-r from-red-500 to-red-700 z-20"
           >
             <motion.div className="flex flex-col my-16">
               {links.map(({ name, to, id }) => (
@@ -96,7 +96,7 @@ export default function Navbar() {
           <span className="sr-only">Open</span>
           {open ? (
             <XIcon
-              className="fixed w-6 h-6 text-black-600 right-7 top-6"
+              className="fixed w-6 h-6 text-black-600 right-7 top-6 z-20"
               aria-hidden="true"
             />
           ) : (

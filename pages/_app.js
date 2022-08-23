@@ -1,6 +1,7 @@
 import '../styles/globals.css';
 import Head from 'next/head';
 import Layout from '../components/Layout/Layout';
+import VideoPlayer from '../components/VideoPlayer';
 
 function MyApp() {
   return (
@@ -16,7 +17,9 @@ function MyApp() {
           rel="stylesheet"
         />
       </Head>
-      <Layout></Layout>
+      <Layout>
+        <VideoPlayer />
+      </Layout>
     </>
   );
 }

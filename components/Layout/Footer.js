@@ -11,24 +11,26 @@ const Footer = () => {
       <div className="mt-28 bg-white-500 pt-10 pb-12">
         <div className=" max-w-screen-xl w-full mx-auto px-6 sm:px-8 lg:px-16 grid grid-flow-row m:grid-flow-col grid-cols-3 sm:grid-cols-12 gap-3">
           <div className="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 ">
-            <div className="p-5 text-2xl font-display">
+            <div className="text-2xl font-display">
               Finca{' '}
               <span className="font-display font-bold cursor-pointer text-red-500">
                 Hermanos Olivares
               </span>{' '}
             </div>
-            <p className="pt-4 pb-4">Santa Rosa, Bolivar</p>
+            <p className="pb-4 font-display">Santa Rosa, Bolivar</p>
 
             <div className="flex">
               {/*  <Image src={LogoWP} alt="Logo whatsapp" width={30} /> */}
-              <p className="pb-4">contacto@fincahermanosolivares.co</p>
+              <p className="pb-4 font-display">
+                contacto@fincahermanosolivares.co
+              </p>
             </div>
 
             <div className="flex gap-4 w-full mt-2">
               <div>
                 <a
                   href=""
-                  className="bg-white-500 rounded-full flex p-2 shadow-lg"
+                  className="bg-white-500 rounded-full flex p-2 shadow-lg hover:scale-110"
                 >
                   <Image src={Facebook} />
                 </a>
@@ -37,7 +39,7 @@ const Footer = () => {
               <div>
                 <a
                   href=""
-                  className="bg-white-500 rounded-full flex p-2 shadow-lg"
+                  className="bg-white-500 rounded-full flex p-2 shadow-lg hover:scale-110"
                 >
                   <Image src={Instagram} />
                 </a>
