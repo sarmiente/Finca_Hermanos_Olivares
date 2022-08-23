@@ -53,39 +53,29 @@ const Footer = () => {
                 <h6 className="text-lg font-medium text-black-600">Menu</h6>
                 <ul className="list-inside mt-4 space-y-3">
                   <li>
-                    <a
-                      href="#inicio"
-                      className="hover:text-blue-100 transition"
-                    >
+                    <a href="#inicio" className="hover:text-red-500 transition">
                       Inicio
                     </a>
                   </li>
                   <li>
                     <Link href="/nosotros">
-                      <a className="hover:text-blue-100 transition">Nosotros</a>
+                      <a className="hover:text-red-500 transition">Proyecto</a>
                     </Link>
                   </li>
                   <li>
                     <a
                       href="/servicios"
-                      className="hover:text-blue-100 transition"
+                      className="hover:text-red-500 transition"
                     >
-                      Servicios
+                      Planos
                     </a>
                   </li>
-                  <li>
-                    <a
-                      href="#proyectos"
-                      className="hover:text-blue-100 transition"
-                    >
-                      Proyectos
-                    </a>
-                  </li>
+
                   <li>
                     <a
                       href="https://wa.me/573053255769"
                       target="_blank"
-                      className="hover:text-blue-100 transition"
+                      className="hover:text-red-500 transition"
                     >
                       Contactenos
                     </a>
@@ -98,14 +88,14 @@ const Footer = () => {
                   <li>
                     <a
                       href="/politica"
-                      className="hover:text-blue-100 transition"
+                      className="hover:text-red-500 transition"
                     >
                       Politica de privacidad
                     </a>
                   </li>
                   <li>
                     <Link href="/terms">
-                      <a className="hover:text-blue-100 transition">
+                      <a className="hover:text-red-500 transition">
                         Terminos y condiciones
                       </a>
                     </Link>
