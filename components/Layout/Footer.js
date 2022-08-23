@@ -116,10 +116,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="mb-14 md:mb-0 flex justify-between px-4 py-3 rounded-md bg-gray-100 text-black-600 text-sm">
+      <div className=" md:mb-0 flex justify-between px-4 py-3 rounded-md bg-gray-100 text-black-600 text-sm">
         <span>Todos los derechos reservados.</span>
 
-        <span className="font-bold transition hover:text-blue-100" id="year">
+        <span className="font-display transition hover:text-blue-100" id="year">
           SARPIN &copy; 2022
         </span>
       </div>
