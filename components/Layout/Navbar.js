@@ -35,7 +35,7 @@ export default function Navbar() {
   const [open, cycleOpen] = useCycle(false, true);
 
   return (
-    <nav className="flex justify-between w-full shadow-sm">
+    <nav className="flex justify-between w-full">
       <div className="p-5 text-2xl font-display">
         Finca{' '}
         <span className="font-display font-bold hover:tracking-wide cursor-pointer text-red-500">

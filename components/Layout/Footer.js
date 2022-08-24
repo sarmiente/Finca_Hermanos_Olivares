@@ -17,11 +17,13 @@ const Footer = () => {
                 Hermanos Olivares
               </span>{' '}
             </div>
-            <p className="pb-4 font-display">Santa Rosa, Bolívar - Colombia</p>
+            <p className="pb-4 font-display">
+              Santa Rosa de Lima, Bolívar - Colombia
+            </p>
 
             <div className="flex">
               {/*  <Image src={LogoWP} alt="Logo whatsapp" width={30} /> */}
-              <p className="pb-4 font-display">
+              <p className="pb-4 font-display tracking-wide">
                 contacto@fincahermanosolivares.co
               </p>
             </div>

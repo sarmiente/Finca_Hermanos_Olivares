@@ -20,7 +20,7 @@ const pasos = [
 export default function Proyecto() {
   return (
     <div
-      className="xl:mt-14 mt-10 mb-10 py-10 bg-white-500 overflow-hidden"
+      className="xl:mt-14 mt-5 mb-10 py-8 bg-white-500 overflow-hidden"
       id="Proyecto"
     >
       <div className="container m-auto px-6 space-y-8 md:px-12 lg:px-20">
@@ -32,8 +32,8 @@ export default function Proyecto() {
           </span>
           <span></span>
           <h2 className="font-display text-center text-xl text-black md:text-4xl">
-            Finca Los Hermanos Olivares es proyecto campestre en el municipio de{' '}
-            <br className="lg:block" hidden />
+            Finca Los Hermanos Olivares, es un proyecto campestre ubicado en el
+            municipio de <br className="lg:block" hidden />
             Santa Rosa de Lima, Colombia.
           </h2>
           <h3 className="text-center font-display text-xl md:text-2xl">
