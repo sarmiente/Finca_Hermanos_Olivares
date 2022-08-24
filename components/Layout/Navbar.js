@@ -5,7 +5,7 @@ import MenuIcon from '@heroicons/react/outline/MenuIcon';
 
 const links = [
   { name: 'Inicio', to: '#Inicio', id: 1 },
-  { name: 'Proyecto', to: '#Proyectos', id: 2 },
+  { name: 'Proyecto', to: '#Proyecto', id: 2 },
   { name: 'Planos', to: '#Planos', id: 3 },
   { name: 'Contacto', to: '#Contacto', id: 4 },
 ];

@@ -50,7 +50,9 @@ const Footer = () => {
           <div className="col-span-8 md:col-span-2 lg:col-span-5">
             <div className="mt-4 md:mt-0 md:pl-16 pb-10 grid grid-cols-2 gap-6 sm:grid-cols-2">
               <div>
-                <h6 className="text-lg font-medium text-black-600">Menu</h6>
+                <h6 className="text-lg font-medium text-black-600 text-red-500">
+                  Menu
+                </h6>
                 <ul className="list-inside mt-4 space-y-3">
                   <li>
                     <a href="#inicio" className="hover:text-red-500 transition">
@@ -58,15 +60,15 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <Link href="/nosotros">
-                      <a className="hover:text-red-500 transition">Proyecto</a>
-                    </Link>
-                  </li>
-                  <li>
                     <a
-                      href="/servicios"
+                      href="#proyecto"
                       className="hover:text-red-500 transition"
                     >
+                      Proyecto
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#planos" className="hover:text-red-500 transition">
                       Planos
                     </a>
                   </li>
@@ -83,7 +85,9 @@ const Footer = () => {
                 </ul>
               </div>
               <div>
-                <h6 className="text-lg font-medium text-black-600">Links</h6>
+                <h6 className="text-lg font-medium text-black-600 text-red-500">
+                  Links
+                </h6>
                 <ul className="list-inside mt-4 space-y-4">
                   <li>
                     <a
@@ -94,11 +98,9 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <Link href="/terms">
-                      <a className="hover:text-red-500 transition">
-                        Terminos y condiciones
-                      </a>
-                    </Link>
+                    <a href="/terms" className="hover:text-red-500 transition">
+                      Terminos y condiciones
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -106,12 +108,14 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className=" md:mb-0 flex justify-between px-4 py-3 rounded-md bg-gray-100 text-black-600 text-sm">
-        <span>Todos los derechos reservados.</span>
+      <div className=" md:mb-0 flex justify-between px-2 py-3 bg-gray-100 text-black-600 text-sm">
+        <span>2022 &copy; Todos los derechos reservados.</span>
 
-        <span className="font-display transition hover:text-blue-100" id="year">
-          SARPIN &copy; 2022
-        </span>
+        <div>
+          <span className="font-hero font-bold transition hover:text-blue-500">
+            SARPIN.co
+          </span>
+        </div>
       </div>
     </>
   );

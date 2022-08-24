@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     fontFamily: {
       display: 'Akshar',
+      hero: 'Lato',
     },
     extend: {},
   },
