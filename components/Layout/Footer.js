@@ -17,7 +17,7 @@ const Footer = () => {
                 Hermanos Olivares
               </span>{' '}
             </div>
-            <p className="pb-4 font-display">Santa Rosa, Bolivar</p>
+            <p className="pb-4 font-display">Santa Rosa, Bolívar - Colombia</p>
 
             <div className="flex">
               {/*  <Image src={LogoWP} alt="Logo whatsapp" width={30} /> */}
@@ -113,7 +113,7 @@ const Footer = () => {
 
         <div>
           <span className="font-hero font-bold transition hover:text-blue-500">
-            SARPIN.co
+            <a href="https://www.sarpin.co/">SARPIN.co</a>
           </span>
         </div>
       </div>

@@ -1,8 +1,20 @@
 const pasos = [
-  { id: 1, title: 'Lorem', excerpt: 'Lorem' },
-  { id: 2, title: 'Lorem', excerpt: 'Lorem' },
-  { id: 3, title: 'Lorem', excerpt: 'Lorem' },
-  { id: 4, title: 'Lorem', excerpt: 'Lorem' },
+  {
+    id: 1,
+    title: 'Separación',
+    excerpt:
+      'Comunicate con nosotros y aparta tu terreno con tan solo $1.000.000.',
+  },
+  {
+    id: 2,
+    title: 'Cuota Inicial',
+    excerpt: '30% de cuota Inicial del valor total del lote.',
+  },
+  {
+    id: 3,
+    title: 'Financiación',
+    excerpt: '70% restante en el numero de cuotas de tu preferencia.',
+  },
 ];
 
 export default function Proyecto() {
@@ -12,42 +24,41 @@ export default function Proyecto() {
       id="Proyecto"
     >
       <div className="container m-auto px-6 space-y-8 md:px-12 lg:px-20">
-        <div>
+        <div className="space-y-4">
           <span className="w-max mx-auto px-6 text-black-600 mb-10">
-            <h2 className=" text-center text-red-500 text-2xl font-bold font-display md:text-3xl">
+            <h1 className=" text-center text-red-500 text-3xl font-bold font-display md:text-4xl">
               ¿Quieres ser parte de Nuestro Proyecto?
-            </h2>
+            </h1>
           </span>
-          <span>
-            <h3 className="text-center font-light font-display text-3xl">
-              DE CONTADO O FINANCIADO
-            </h3>
-          </span>
-          <h2 className="mt-4 mb-12 text-center text-xl text-black font-bold md:text-4xl">
-            Ofrecemos la mejor tecnologia para garantizar una excelente
-            <br className="lg:block" hidden /> seguridad y proteccion de tus
-            bienes
+          <span></span>
+          <h2 className="font-display text-center text-xl text-black md:text-4xl">
+            Finca Los Hermanos Olivares es proyecto campestre en el municipio de{' '}
+            <br className="lg:block" hidden />
+            Santa Rosa de Lima, Colombia.
           </h2>
+          <h3 className="text-center font-display text-xl md:text-2xl">
+            PAGA DE CONTADO O FINANCIADO
+          </h3>
         </div>
-        <div className="mt-16 p-1 grid gap-8 sm:grid-cols-2 lg:grid-cols-4 md:-mx-8">
+        <div className="mt-16 p-1 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 ">
           {pasos.map(({ id, title, excerpt }) => (
             <div className="relative group ">
               <div
                 aria-hidden="true"
-                className="absolute inset-0 rounded-xl bg-gray-100 shadow-2xl transition duration-300 group-hover:bg-gradient-to-r from-red-500 to-red-700 group-hover:scale-105 lg:group-hover:scale-110"
+                className="absolute inset-0 rounded-xl bg-gray-200 shadow-md transition duration-300 group-hover:scale-105 lg:group-hover:scale-105"
               />
-              <div className="relative space-y-8 p-4 md:p-8 lg:p-8 xl:p-6 ">
+              <div className="relative space-y-8 p-5 md:p-8 lg:p-8 xl:p-6 ">
                 <div
                   aria-hidden="true"
-                  className="w-10 h-10 flex justify-center items-center rounded-full bg-neutral-500"
+                  className="w-10 h-10 flex justify-center items-center rounded-full bg-red-600"
                 >
-                  <span className="font-bold text-black">{id}</span>
+                  <span className="font-bold text-white">{id}</span>
                 </div>
                 <div className="space-y-4">
-                  <h4 className="text-2xl text-gray-800 font-medium transition group-hover:text-white-500">
+                  <h1 className="text-2xl md:text-3xl font-hero text-black font-medium transition group-hover:text-white-500">
                     {title}
-                  </h4>
-                  <p className="text-gray-600 group-hover:text-white-500">
+                  </h1>
+                  <p className="text-black font-display group-hover:text-white-500 text-lg md:text-xl">
                     {excerpt}
                   </p>
                 </div>

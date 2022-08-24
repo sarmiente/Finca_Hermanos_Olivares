@@ -80,8 +80,8 @@ export default function Navbar() {
                   {name}
                 </a>
               ))}
-              <div className="absolute bottom-0 mx-10 my-3 font-display">
-                <span className="font-display text-white hover:text-black">
+              <div className="absolute bottom-0 mx-10 my-8 font-display">
+                <span className="font-display text-white hover:text-black  hover:font-bold hover:scale-110">
                   <a href="https://www.sarpin.co/">SARPIN.CO</a>
                 </span>
               </div>
