@@ -115,7 +115,7 @@ const Footer = () => {
 
         <div>
           <span className="font-hero font-bold transition hover:text-blue-500">
-            <a href="https://www.sarpin.co/">SARPIN.co</a>
+            <a href="https://www.sarpin.co/">Sarpin Devs</a>
           </span>
         </div>
       </div>

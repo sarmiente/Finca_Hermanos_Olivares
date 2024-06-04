@@ -45,7 +45,7 @@ export default function Proyecto() {
             <div className="relative group ">
               <div
                 aria-hidden="true"
-                className="absolute inset-0 rounded-xl bg-gray-200 shadow-md transition duration-300 group-hover:scale-105 lg:group-hover:scale-105"
+                className="absolute inset-0 rounded-xl bg-gray-100 shadow-md transition duration-300 group-hover:scale-105 lg:group-hover:scale-105"
               />
               <div className="relative space-y-8 p-5 md:p-8 lg:p-8 xl:p-6 ">
                 <div

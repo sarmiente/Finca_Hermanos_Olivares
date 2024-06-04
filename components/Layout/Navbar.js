@@ -82,7 +82,7 @@ export default function Navbar() {
               ))}
               <div className="absolute bottom-0 mx-10 my-8 font-display">
                 <span className="font-display text-white hover:text-black  hover:font-bold hover:scale-110">
-                  <a href="https://www.sarpin.co/">SARPIN.CO</a>
+                  <a href="https://www.sarpin.co/">Sarpin Devs</a>
                 </span>
               </div>
             </motion.div>
